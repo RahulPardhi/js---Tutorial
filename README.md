@@ -1,2 +1,0 @@
-# js---Tutorial
-javascript tutorial
