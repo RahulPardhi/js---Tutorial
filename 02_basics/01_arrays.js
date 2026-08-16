@@ -37,3 +37,5 @@ const myn2 = myArr.splice(1, 4)
 console.log("c", myArr);
 console.log(myn2) // [0, 5] // [1, 2, 3, 4]
 
+
+
