@@ -31,4 +31,33 @@ function addTwoNumbers(number1, number2){
   return `${usename} just logged in`
  }
 
- console.log(loginUserMessage())
+ // console.log(loginUserMessage())
+
+
+ function calculateCarPrice(num1){
+  return num1
+ }
+ // console.log(calculateCarPrice(2))
+
+ const user ={
+  username: "rahul",
+  price:200 
+ }
+
+ function handleObject(anyObject){
+  console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+ }
+
+ // handleObject(user)
+
+//  handleObject({
+// username: "RAhul",
+// price:400})
+
+
+const myNewArray = [200, 400, 600, 500]
+
+function returnSecondValue(getArray){
+  return getArray[3]
+}
+console.log(returnSecondValue(myNewArray));
